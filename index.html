@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Twitter Profile Page</title>
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+        />
+        <link rel="stylesheet" href="style.css" />
+        <script src="app.js" defer></script>
+    </head>
+    <body>
+        <div class="profiles">
+            <label>Select user to see tweets</label>
+            <select id="dropdown" onchange="displaySingleUserInfo()">
+                <option value="1">Leanne Graham</option>
+                <option value="2">Ervin Howell</option>
+                <option value="3">Clementine Bauch</option>
+                <option value="4">Patricia Lebsack</option>
+                <option value="5">Chelsey Dietrich</option>
+                <option value="6">Mrs. Dennis Schulist</option>
+                <option value="7">Kurtis Weissnat</option>
+                <option value="8">Nicholas Runolfsdottir V</option>
+                <option value="9">Glenna Reichert</option>
+                <option value="10">Clementina DuBuque</option>
+            </select>
+        </div>
+        <div class="profile-header">
+            <div class="profile-picture"></div>
+        </div>
+        <div class="profile-info" id="profile-info">
+            <!-- <div class="profile-name" id="profile-name">John Doe</div>
+            <div class="profile-username" id="profile-username">@johndoe</div>
+            <br /><br />
+            <div class="catch-phrase" id="catch-phrase">@johndoe</div>
+            <br />
+            <div class="links-container">
+                <div class="website" id="website">
+                    <i class="fa-solid fa-globe"></i>
+                    @johndoe
+                </div>
+                <br />
+
+                <div class="city" id="city">
+                    <i class="fas fa-map-marker-alt"></i>
+                    @johndoe
+                </div>
+                <br />
+            </div> -->
+        </div>
+        <div class="tweets-section" id="content-area">
+            <div class="tweet">
+                <!-- <div class="profile-picture-small"></div> -->
+                <!-- <div class="tweet-content"> -->
+                <!-- <div class="tweet-header" id="tweet-header"> -->
+                <!-- <span class="tweet-name" id="tweet-name">John Doe</span>
+                        <span class="tweet-username" id="tweet-username"
+                            >@johndoe</span
+                        >
+                        <span class="tweet-time" id="tweet-time">1h</span> -->
+                <!-- </div> -->
+                <!-- <div class="tweet-text" id="tweet-text"></div> -->
+                <!-- </div> -->
+            </div>
+            <!-- <div class="tweet">
+                <div class="profile-picture-small"></div>
+                <div class="tweet-content">
+                    <div class="tweet-header">
+                        <span class="tweet-name">John Doe</span>
+                        <span class="tweet-username">@johndoe</span>
+                        <span class="tweet-time">2h</span>
+                    </div>
+                    <div class="tweet-text">
+                        Another example tweet to demonstrate the layout. #coding
+                        #webdesign
+                    </div>
+                </div>
+            </div> -->
+        </div>
+    </body>
+</html>
